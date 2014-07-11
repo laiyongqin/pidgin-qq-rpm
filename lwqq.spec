@@ -5,7 +5,7 @@ License:	GPLv3
 Summary:	A Linux WebQQ Client
 URL:	http://github.com/mathslinux/lwqq
 Group:	Internet/Instant Messenger
-Source:	%{name}-3.0.tar.bz2
+Source:	%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	gtk3-devel
 BuildRequires:	libev-devel
@@ -25,7 +25,7 @@ Requires: %{name} = %{version}
 Header files and libraries for the package %{name}.
 
 %prep
-%setup -q -n %{name}-3.0
+%setup -q -n %{name}-%{version}
 sed -i 's| lib| %{_lib}|' lib/CMakeLists.txt
 
 %build
@@ -50,7 +50,7 @@ make %{?_smp_mflags}
 %{_libdir}/lib*.a
 
 %changelog
-* Mon Nov 11 2013 Huaren Zhong <huaren.zhong@gmail.com> - 0.2
-- Rebuild for Fedora
 * Fri Jul 11 2014 Stanislav Hanzhin-Tsvetkov <hanzhin.stas@gmail.com> - 0.3.1
 - Update version to 0.3.1
+* Mon Nov 11 2013 Huaren Zhong <huaren.zhong@gmail.com> - 0.2
+- Rebuild for Fedora

@@ -5,7 +5,7 @@ License:	SuSE-Permissive
 Summary:	A pidgin plugin based on lwqq
 URL:	https://github.com/xiehuc/pidgin-lwqq
 Group:	Productivity/Networking/Instant Messenger
-Source:	%{name}-%{version}.tar.bz2
+Source:	%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	gcc-c++
 BuildRequires:	libcurl-devel
@@ -43,12 +43,13 @@ cd build
 %{_datadir}/pixmaps/pidgin/emotes/webqq
 %{_datadir}/pixmaps/pidgin/emotes/webqq_static
 %{_datadir}/pixmaps/pidgin/protocols/*/webqq*.*
-%{_datadir}/pixmaps/pidgin/protocols/scalable.png
 %{_datadir}/icons/hicolor/*/apps/webqq.*
 %{_datadir}/locale/*/LC_MESSAGES/*.mo
 %{_libdir}/purple-2/libwebqq.so
 %{_datadir}/lwqq/hash.js
 %{_datadir}/lwqq/smiley.txt
+%{_datadir}/lwqq/emoji/*.png
+%{_datadir}/lwqq/baozou/*.gif
 
 %changelog
 * Fri Jul 11 2014 Stanislav Hanzhin-Tsvetkov <hanzhin.stas@gmail.com>
