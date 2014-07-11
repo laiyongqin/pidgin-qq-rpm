@@ -1,6 +1,6 @@
 Name:       lwqq
-Version:	0.3
-Release:	10.3
+Version:	0.3.1
+Release:	1
 License:	GPLv3
 Summary:	A Linux WebQQ Client
 URL:	http://github.com/mathslinux/lwqq
@@ -52,3 +52,5 @@ make %{?_smp_mflags}
 %changelog
 * Mon Nov 11 2013 Huaren Zhong <huaren.zhong@gmail.com> - 0.2
 - Rebuild for Fedora
+* Fri Jul 11 2014 Stanislav Hanzhin-Tsvetkov <hanzhin.stas@gmail.com> - 0.3.1
+- Update version to 0.3.1

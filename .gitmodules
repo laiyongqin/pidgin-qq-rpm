@@ -3,4 +3,4 @@
 	url = git@github.com:xiehuc/pidgin-lwqq.git
 [submodule "lwqq"]
 	path = lwqq
-	url = git@github.com:mathslinux/lwqq.git
+	url = git@github.com:xiehuc/lwqq.git
