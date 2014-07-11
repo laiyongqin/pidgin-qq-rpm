@@ -1,5 +1,5 @@
 Name:       pidgin-lwqq
-Version:	3.0
+Version:	0.3.1
 Release:	1
 License:	SuSE-Permissive
 Summary:	A pidgin plugin based on lwqq
@@ -51,6 +51,8 @@ cd build
 %{_datadir}/lwqq/smiley.txt
 
 %changelog
+* Fri Jul 11 2014 Stanislav Hanzhin-Tsvetkov <hanzhin.stas@gmail.com>
+- update to v0.3.1
 * Tue Oct 15 2013 Huaren Zhong <huaren.zhong@gmail.com> - 2.0a.fix
 - Rebuild for Fedora
 * Thu Aug  1 2013 i@marguerite.su
